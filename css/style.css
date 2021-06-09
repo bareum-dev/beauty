@@ -6,7 +6,7 @@ body {
 }
 
 .wrapper {
-  min-width: 1110px;
+  max-width: 1110px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -15,11 +15,13 @@ body {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  padding: 0;
+  padding: 5px 0;
 }
 
 .nav > li {
-  margin: 0 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 4px 0;
 }
 
 .nav > li > a {
@@ -29,13 +31,14 @@ body {
 
 .header {
   background-color: #fff;
+  padding-top: 10px;
 }
 
 .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 15px 0 12px 0;
 }
 
 .logo {
@@ -56,17 +59,22 @@ body {
   border: 2px solid #66C05D;
   border-radius: 20px;
   background-color: transparent;
-  padding: 10px 15px;
-  margin-left: 20px;
+  padding: 10px 25px;
+  margin-left: 36px;
 }
 
 .header-bottom {
-  padding: 15px 0;
+  padding: 20px 0 27px 0;
 }
 
 .header-bottom .nav {
   font-size: 16px;
   margin: 0;
+}
+
+.header-bottom .nav > li {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 hr {
@@ -77,8 +85,8 @@ hr {
 
 .banner {
   background-image: url(../img/bg.png);
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 159px;
+  padding-bottom: 159px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -86,8 +94,9 @@ hr {
 }
 
 .banner p {
-  margin-bottom: 50px;
+  margin-bottom: 57px;
   min-width: 315px;
+  line-height: 1.5;
 }
 
 .btn {
@@ -96,12 +105,13 @@ hr {
   border: 2px solid #FFF;
   border-radius: 20px;
   background-color: transparent;
-  padding: 10px 15px;
+  padding: 9px 47px;
 }
 
 .title {
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 42px;
 }
 
 .logo-image {
@@ -109,4 +119,6 @@ hr {
   width: 80px;
   height: 80px;
   background-image: url(../img/logo.svg);
+  margin-right: 20px;
+  letter-spacing: 4px;
 }
