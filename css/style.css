@@ -42,6 +42,9 @@ body {
   color: #66C05D;
   font-size: 36px;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
 }
 
 .header-info span {
@@ -70,4 +73,40 @@ hr {
   border: none;
   background-color: #EFEFEF;
   height: 1px;
+}
+
+.banner {
+  background-image: url(../img/bg.png);
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #FFF;
+}
+
+.banner p {
+  margin-bottom: 50px;
+  min-width: 315px;
+}
+
+.btn {
+  color: #FFF;
+  text-decoration: none;
+  border: 2px solid #FFF;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 10px 15px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.logo-image {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/logo.svg);
 }
